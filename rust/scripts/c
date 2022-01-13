@@ -1,0 +1,11 @@
+#!/bin/bash
+# set -e
+cat ./main.rs ~/cp/rust/cp/DISCLAIMER ~/cp/rust/cp/x-comp.rs > ~/out.rs
+cargo clean
+cargo build
+
+oj t -D --tle 0.5 --mle 50 -c "rr record /tmp/target/debug/cf"
+rm /tmp/target/debug/cf
+
+rustc -g -Aunused_imports -Abad_style -Wclippy::default_numeric_fallback --cfg ONLINE_JUDGE ~/out.rs -o /tmp/out 2>/dev/null
+oj t -D --tle 0.5 --mle 50 -c "rr record /tmp/out"

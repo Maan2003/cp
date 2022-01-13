@@ -1,0 +1,2 @@
+#!/bin/bash
+nvim +1 +/solve +nohl -c 'norm! j'  main.rs

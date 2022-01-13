@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+printf "Are you sure? "
+read
+cf submit -f ~/out.rs $(printf "%s%s" $(basename $(dirname $(pwd))) $(basename $(pwd)))

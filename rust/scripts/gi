@@ -1,0 +1,9 @@
+#!/bin/bash
+RUSTFLAGS="" cargo build --release
+cp /tmp/target/release/cf /tmp/main
+RUSTFLAGS="--cfg naive" cargo build --release
+cp /tmp/target/release/cf /tmp/naive
+RUSTFLAGS="--cfg generator" cargo build --release
+cp /tmp/target/release/cf /tmp/gen
+
+oj generate-input --hack-actual=/tmp/main --hack-expected=/tmp/naive '/tmp/gen' -j 16

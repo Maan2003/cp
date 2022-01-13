@@ -1,0 +1,3 @@
+#!/bin/bash
+LN=$(rg 'solve \{' main.rs --line-number | tail -1 | awk -F: '{ print "main.rs:" $1 + 1 }')
+rr replay -d rust-gdb $@ -- --ex "set pagination off" --ex "break $LN" --ex "tui enable" --ex "shell clear" --ex "refresh"

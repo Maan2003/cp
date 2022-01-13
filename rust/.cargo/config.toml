@@ -1,0 +1,10 @@
+[build]
+rustflags = [
+    "-Aunused_imports", 
+    "-Abad_style",
+    "-Wclippy::default_numeric_fallback",
+    "-Clink-dead-code",
+    "-Aclippy::needless_range_loop",
+    "-Clink-dead-code",
+]
+target-dir = "/tmp/target"

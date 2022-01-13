@@ -1,0 +1,11 @@
+[package]
+name = "cf"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cp = { path = "/home/manmeet/cp/rust/cp" }
+
+[[bin]]
+name = "cf"
+path = "main.rs"

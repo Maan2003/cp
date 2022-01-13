@@ -1,0 +1,51 @@
+1639482743139	geckodriver	INFO	Listening on 127.0.0.1:43759
+1639482743639	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43891" "-no-remote" "-profile" "/tmp/rust_mozprofileASk4Vi"
+1639482744358	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileASk4Vi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43891/devtools/browser/86089949-ba05-477b-a3fe-3cf0c9a0d20b
+WebDriver BiDi listening on ws://localhost:43891
+1639482745494	Marionette	INFO	Listening on port 33069
+1639482745572	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.hackerrank.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+JavaScript error: https://www.hackerrank.com/hackers/auth/github/callback?code=36a17fc35ee749afd670&state=b90ec1effa29f9966a327c30d19b47e4b7293821e3479262, line 87: ReferenceError: $ is not defined
+JavaScript error: https://www.hackerrank.com/hackers/auth/github/callback?code=36a17fc35ee749afd670&state=b90ec1effa29f9966a327c30d19b47e4b7293821e3479262, line 121: ReferenceError: $ is not defined
+JavaScript error: https://www.hackerrank.com/hackers/auth/github/callback?code=36a17fc35ee749afd670&state=b90ec1effa29f9966a327c30d19b47e4b7293821e3479262, line 135: ReferenceError: $ is not defined
+JavaScript error: https://www.hackerrank.com/hackers/auth/github/callback?code=36a17fc35ee749afd670&state=b90ec1effa29f9966a327c30d19b47e4b7293821e3479262, line 150: ReferenceError: $ is not defined
+JavaScript error: https://www.hackerrank.com/hackers/auth/github/callback?code=36a17fc35ee749afd670&state=b90ec1effa29f9966a327c30d19b47e4b7293821e3479262, line 195: ReferenceError: $ is not defined
+JavaScript error: https://www.hackerrank.com/hackers/auth/github/callback?code=36a17fc35ee749afd670&state=b90ec1effa29f9966a327c30d19b47e4b7293821e3479262, line 253: ReferenceError: $ is not defined
+JavaScript error: https://www.hackerrank.com/hackers/auth/github/callback?code=36a17fc35ee749afd670&state=b90ec1effa29f9966a327c30d19b47e4b7293821e3479262, line 317: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.hackerrank.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+1639482802455	Marionette	INFO	Stopped listening on port 33069
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1639482802517	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+[2021-12-14T11:53:22Z ERROR glean] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639482837756	geckodriver	INFO	Listening on 127.0.0.1:49769
+1639482838262	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59651" "-no-remote" "-profile" "/tmp/rust_mozprofileOCgS8g"
+1639482838922	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOCgS8g/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59651/devtools/browser/b262e371-2bd9-43f3-ae2b-e6b807e5cd1a
+WebDriver BiDi listening on ws://localhost:59651
+1639482840032	Marionette	INFO	Listening on port 42267
+1639482840081	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639482844213	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js?Q, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1639482849114	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.codechef.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.codechef.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.codechef.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+1639482903512	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1639482907458	Marionette	INFO	Stopped listening on port 42267
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

@@ -1,0 +1,5 @@
+BasedOnStyle: Google
+IndentWidth: 4
+ColumnLimit: 9999
+ForEachMacros: ["REP", "REP3", "REP_R", "REP3R"]
+
